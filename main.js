@@ -148,6 +148,11 @@ function play() {
                     startVelocity: 45
                 })
             }, 500)
+
+            setTimeout(function () {
+                const currentUrl = window.location.href;
+                window.location.href = "info-phishing.html";
+            }, 3000)
         }, 6000);
     }
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info Phishing</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: #231F20;
+        }
+        #icon-glpmr{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 180px;
+            z-index: -1;
+        }
+        .infoPhishing{
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img{
+            width: 400px;
+        }
+        .infoPhishing img{
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <img src="public/icone-glpmr.png" alt="logo-glpmr" id="icon-glpmr">
+    <h3>PRÉVENTION CONTRE LE PHISHING</h3>
+
+    <div class="infoPhishing">
+        <p>
+            Cette page s'affiche dans le cadre de l'audit informatique effectué
+            par le lycée Pasteur Mont-Roland pour la société SOPIL.
+            <br />
+            Cet audit a pour but d'identifier les failles de sécurités importantes de l'entreprise.
+            <br /> <br />
+            L'une d'elle est <strong>le Phishing</strong>. Cette opération consiste à émettre un mail
+            frauduleux à un nombre important de boîtes mail. Lorsque le propriétaire d'une de ces boîtes interagi
+            avec le mail (des liens hypertext, des images ou une pièce jointe), l'attaquant peut récupérer
+            certaines de ses informations comme des identifiants ou des adresses IP.
+            <br />
+        </p>
+        <img src="public/phishing.jpg" alt="img-phishing">
+    </div>
+
+    <h3>INTERVENIR CONTRE LE PHISHING</h3>
+
+    <div class="infoPhishing">
+        Se prémunir contre cette pratique est difficile. Mais vous pouvez agir à votre niveau :
+        <ul>
+            <li>En analysant le contenu du mail à la recherche d'informations suspicieuses</li>
+            <li>En vérifiant l'adresse mail d'expédition. Les adresses de confiance terminent par "@sopil.fr"</li>
+            <li>En signalant tout mail contenant des informations suspicieuses au service informatique</li>
+            <li>En prévenant le service informatique que vous avez interagi avec un mail frauduleux</li>
+            <li>En informant vos collègues de l'existence de cette fraude</li>
+        </ul>
+        Le service informatique prendra en compte vos signalements et adressera des actions correctives.
+        À savoir, se faire avoir par du Phishing peut arriver à tout le monde. Prévenir votre service informatique
+        est obligatoire et nécessaire pour la sécurité de l'entreprise.
+    </div>
+
+</body>
+</html>
